@@ -22,6 +22,7 @@ classifiers = [
   "Programming Language :: Python :: 3.13",
 ]
 dependencies = [
+  "anndata>=0.12.6",
   # for debug logging (referenced from the issue template)
   # "session-info2",
   "click",
@@ -30,6 +31,8 @@ dependencies = [
 optional-dependencies.dev = [
   "pre-commit",
   "twine>=4.0.2",
+  "scanpy",
+  "jupyter",
 ]
 optional-dependencies.doc = [
   "docutils>=0.8,!=0.18.*,!=0.19.*",
