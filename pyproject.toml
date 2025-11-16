@@ -26,6 +26,7 @@ dependencies = [
   # for debug logging (referenced from the issue template)
   # "session-info2",
   "click",
+  "dask>=2025.11.0",
   "fastmcp",
   "xarray>=2025.10.1",
 ]
