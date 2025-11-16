@@ -61,6 +61,7 @@ urls.Homepage = "https://github.com/dschaub95/anndata-mcp-simple"
 urls.Source = "https://github.com/dschaub95/anndata-mcp-simple"
 
 scripts.anndata_mcp_simple = "anndata_mcp_simple.main:run_app"
+scripts."anndata-mcp-simple" = "anndata_mcp_simple.main:run_app"
 
 [tool.hatch.build.targets.wheel]
 packages = [ "src/anndata_mcp_simple" ]
