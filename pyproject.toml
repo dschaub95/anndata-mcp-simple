@@ -28,6 +28,7 @@ dependencies = [
   "click",
   "dask>=2025.11.0",
   "fastmcp",
+  "scanpy>=1.11.5",
   "xarray>=2025.10.1",
 ]
 optional-dependencies.dev = [
